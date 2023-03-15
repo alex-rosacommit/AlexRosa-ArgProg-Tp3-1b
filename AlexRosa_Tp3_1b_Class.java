@@ -17,7 +17,7 @@ public class AlexRosa_Tp3_1b_Class {
 		numerosOrdenados[1] = num2;
 		numerosOrdenados[2] = num3;
 		
-		if(orden == "ac") {
+		if(orden == "des") {
 			for(int i = 0; i < numerosOrdenados.length ; i++) {
 				for(int j = i + 1; j < numerosOrdenados.length ; j++) {
 					if(numerosOrdenados[i] < numerosOrdenados[j]) {
@@ -28,7 +28,7 @@ public class AlexRosa_Tp3_1b_Class {
 				}
 			}
 		}
-		if(orden == "des") {
+		if(orden == "ac") {
 			for(int i = 0; i < numerosOrdenados.length ; i++) {
 				for(int j = i + 1; j < numerosOrdenados.length ; j++) {
 					if(numerosOrdenados[i] > numerosOrdenados[j]) {
